@@ -1,0 +1,74 @@
+SANCTVS DREAM TRADE PREMIUM
+
+MÁXIMO 2 MARTINGALES
+
+Data: 
+
+LISTA 1
+
+        SINAIS M1
+
+
+        SINAIS M5
+
+M5;eurusd-otc;00:05:00;PUT		
+M5;nzdusd-otc;00:05:00;PUT		
+M5;usdchf-otc;00:45:00;PUT		
+M5;usdchf-otc;01:45:00;PUT		
+M5;nzdusd-otc;01:55:00;PUT		
+M5;usdjpy-otc;02:00:00;PUT		
+M5;eurjpy-otc;03:15:00;PUT		
+M5;eurusd-otc;04:15:00;PUT		
+M5;audcad-otc;04:35:00;PUT		
+M5;eurgbp-otc;04:40:00;PUT		
+M5;usdchf-otc;05:20:00;PUT		
+M5;eurusd-otc;05:45:00;PUT		
+M5;usdjpy-otc;05:50:00;PUT		
+M5;gbpusd-otc;07:25:00;PUT		
+M5;eurgbp-otc;07:50:00;PUT		
+M5;eurgbp-otc;08:00:00;PUT		
+M5;eurjpy-otc;09:05:00;PUT		
+M5;eurjpy-otc;09:30:00;PUT		
+M5;eurusd-otc;09:50:00;PUT		
+M5;gbpusd-otc;11:05:00;PUT		
+M5;eurusd-otc;11:30:00;PUT		
+M5;audcad-otc;11:40:00;PUT		
+M5;eurusd-otc;12:35:00;PUT		
+M5;usdjpy-otc;15:15:00;PUT		
+M5;usdchf-otc;15:15:00;PUT		
+M5;eurjpy-otc;15:25:00;PUT		
+	
+M5;nzdusd-otc;16:50:00;PUT		
+M5;eurusd-otc;19:10:00;PUT		
+M5;eurusd-otc;19:15:00;PUT		
+M5;usdjpy-otc;19:45:00;PUT		
+M5;audcad-otc;20:20:00;PUT		
+M5;usdchf-otc;00:45:00;PUT		
+M5;audcad-otc;01:00:00;PUT		
+M5;usdjpy-otc;05:45:00;PUT		
+M5;eurgbp-otc;07:50:00;PUT		
+M5;eurgbp-otc;07:55:00;PUT		
+M5;eurgbp-otc;08:00:00;PUT		
+M5;usdjpy-otc;08:10:00;PUT		
+M5;eurjpy-otc;09:05:00;PUT		
+M5;usdjpy-otc;09:40:00;CALL		
+M5;gbpusd-otc;11:05:00;PUT		
+M5;usdjpy-otc;11:25:00;CALL		
+
+        SINAIS M15
+
+M15;audcad-otc;00:30:00;PUT		
+M15;eurjpy-otc;02:00:00;PUT		
+M15;usdchf-otc;11:15:00;PUT		
+M15;gbpusd-otc;13:00:00;CALL				
+M15;eurgbp-otc;04:15:00;PUT		
+M15;usdchf-otc;04:45:00;PUT		
+M15;nzdusd-otc;05:30:00;PUT		
+M15;gbpusd-otc;07:30:00;PUT		
+M15;eurusd-otc;11:30:00;PUT		
+M15;usdchf-otc;15:15:00;PUT		
+M15;usdchf-otc;19:00:00;PUT		
+M15;eurusd-otc;19:30:00;CALL		
+
+        SINAIS M30
+

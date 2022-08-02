@@ -1,0 +1,17 @@
+.twoTimesButton {
+    color: gray;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+}
+
+.oneTimesButton {
+    cursor: pointer;
+    margin-left: 5px;
+    color: gray;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+}

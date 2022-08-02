@@ -1,0 +1,20 @@
+[GERAL]
+entrada = 1
+conta = PRACTICE
+# PRACTICE / REAL 
+
+stop_win = 
+stop_loss = 20
+
+martingale = S
+valorGale = 2.3
+sorosgale = N
+niveis = 1
+
+analisarTendencia = S
+noticias = S
+
+[telegram]
+telegram_token = TOKEN TELEGRAM
+telegram_id = ID TELEGRAM
+usar_bot = N

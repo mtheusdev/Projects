@@ -1,0 +1,44 @@
+$layout-module-size: 30px;
+$directions: top, right, bottom, left;
+
+%u-bold {font-weight: bold;}
+%u-no-bold {font-weight: normal;}
+%u-italic {font-style: italic;}
+%u-no-bold {font-stretch: normal;}
+
+%u-text-align-left {text-align: left;}
+%u-text-align-center {text-align: center;}
+%u-text-align-right {text-align: right;}
+%u-text-align-justify {text-align: justify;}
+
+%u-underline{ text-decoration: underline;}
+%u-strike{ text-decoration: line-through;}
+%u-no-text-decoration{ text-decoration: none;}
+
+%u-uppercase{ text-transform: uppercase;}
+%u-capitalize{ text-transform: capitalize;}
+%u-no-text-transform{ text-transform: none;}
+
+%u-position-absolute{ position: absolute;}
+%u-position-relative{ position: relative;}
+%u-position-fixed{ position: fixed;}
+%u-position-static{ position: static;}
+
+%u-no-padding {padding: 0;}
+%u-no-margin {margin: 0;}
+
+@each $direction in $directions {
+    %u-no-padding-#{$direction} {padding-#{$direction}: 0;}
+    %u-half-padding-#{$direction} {padding-#{$direction}: $layout-module-size / 2;}
+    %u-default-padding-#{$direction} {padding-#{$direction}: $layout-module-size;}
+    %u-double-padding-#{$direction} {padding-#{$direction}: $layout-module-size * 2;}
+    
+    %u-no-margin-#{$direction} {margin-#{$direction}: 0;}
+    %u-half-margin-#{$direction} {margin-#{$direction}: $layout-module-size / 2;}
+    %u-default-margin-#{$direction} {margin-#{$direction}: $layout-module-size;}
+    %u-double-margin-#{$direction} {margin-#{$direction}: $layout-module-size * 2;}
+}
+
+body{
+    @extend %u-double-margin-top, %u-no-margin-bottom
+}

@@ -1,0 +1,155 @@
+.container-page {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  cursor: pointer;
+  .container-pokemon-details {
+    .card {
+      transform-style: preserve-3d;
+      display: flex;
+      justify-content: center;
+      margin-top: 7.5rem;
+      position: relative;
+      .face {
+        position: absolute;
+        transition: 1s ease-in-out;
+        transform: perspective(31.25rem) rotateY(0deg) translateZ(0.063rem);
+      }
+      .face.front {
+        span.name-pokemon {
+          font-size: 3.125rem;
+          font-weight: bold;
+          text-transform: capitalize;
+          color: white;
+          padding: 0 1.875rem 0 1.875rem;
+          position: absolute;
+          z-index: 1;
+        }
+        .pokemon {
+          padding: 1.875rem;
+          width: 31.25rem;
+          height: 20rem;
+          position: absolute;
+          border-radius: 1.875rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+          box-shadow: inset 0 0 0.5em #ffffff, 0 0 0.5em #00000073;
+
+          div.pokemon-image {
+            z-index: 1;
+            margin-top: 3rem;
+            img {
+              width: 18.75rem;
+              height: 18.75rem;
+            }
+          }
+        }
+      }
+      .face.back {
+        width: 31.25rem;
+        height: 43.75rem;
+        position: absolute;
+        border-radius: 1.875rem;
+        transform: perspective(31.25rem) rotateY(180deg);
+        background-color: rgb(255, 255, 255);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+    &:hover {
+      .face.front {
+        transform: perspective(31.25rem) rotateY(180deg);
+      }
+      .face.back {
+        transform: perspective(31.25rem) rotateY(360deg);
+      }
+    }
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+    button.sprite {
+      margin: 7.5rem 0 0 6rem;
+      position: absolute;
+      height: 6.25rem;
+      width: 6.25rem;
+      background: none;
+      border: none;
+      cursor: pointer;
+      img {
+        height: 8.25rem;
+        width: 8.25rem;
+      }
+    }
+
+    .go-back-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    .icon {
+      position: absolute;
+      margin: 3.125rem 0 3.125rem 3.125rem;
+      width: 3.75rem;
+      height: 3.75rem;
+      background-color: rgba(255, 255, 255, 0.787);
+      border-radius: 40%;
+      color: rgb(0, 0, 0);
+    }
+  }
+}
+
+.grass-bg {
+  background-image: url(https://i.pinimg.com/originals/b1/da/c0/b1dac0470bdf2f7cc0c559599fba19f9.jpg);
+}
+.bug-bg {
+  background-image: url(https://i.pinimg.com/originals/0a/9f/8f/0a9f8f7af188f31a1bce6ef02e4b57b2.jpg);
+}
+.dark-bg {
+  background-image: url(https://img4.goodfon.com/wallpaper/nbig/1/ba/pokemon-halloween-art-noch-pokemony-khellouin.jpg);
+}
+.dragon-bg {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b9efbc15-761b-4eb1-818f-a87f60753ce6/dbboaed-648f8c4d-2577-40de-9e14-831c26f69365.jpg/v1/fill/w_1280,h_720,q_75,strp/thefatrat___fly_away_official_artwork_by_jordangrimmer_dbboaed-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD03MjAiLCJwYXRoIjoiXC9mXC9iOWVmYmMxNS03NjFiLTRlYjEtODE4Zi1hODdmNjA3NTNjZTZcL2RiYm9hZWQtNjQ4ZjhjNGQtMjU3Ny00MGRlLTllMTQtODMxYzI2ZjY5MzY1LmpwZyIsIndpZHRoIjoiPD0xMjgwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.-QxU4GSDK6z5pzISpAvSDyTHmTYrskzU2bK2Z6RW0PA);
+}
+.electric-bg {
+  background-image: url(https://ak.picdn.net/shutterstock/videos/35014867/thumb/12.jpg);
+}
+.fairy-bg {
+  background-image: url(https://images7.alphacoders.com/353/thumb-1920-353013.jpg);
+}
+.fighting-bg {
+  background-image: url(https://image.freepik.com/vetores-gratis/fundo-do-ringue-de-boxe-area-de-esportes-iluminada-para-lutar-esporte-perigoso_33099-1023.jpg);
+}
+.fire-bg {
+  background-image: url(https://i.ytimg.com/vi/9X3Fg21XIJQ/maxresdefault.jpg);
+}
+.flying-bg {
+  background-image: url(https://coverfiles.alphacoders.com/762/76276.png);
+}
+.ghost-bg {
+  background-image: url(https://cdn.wallpapersafari.com/8/84/3wZY9S.jpg);
+}
+.ground-bg {
+  background-image: url(https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/200306926/original/bcef82fcd2c902692f26778ad3670c97be7df4b4/draw-a-landscape-background-or-your-favorite-scenery.jpg);
+}
+.ice-bg {
+  background-image: url(http://i.imgur.com/HdgMKD9.jpg);
+}
+.poison-bg {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ac7f3682-4ff0-4c22-9d69-8b8308b3480d/d2q9bxl-0cfa993b-2637-4f07-a024-5a598934ec5e.png/v1/fill/w_900,h_410,q_80,strp/poison__free_background__by_minacarolina_d2q9bxl-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDEwIiwicGF0aCI6IlwvZlwvYWM3ZjM2ODItNGZmMC00YzIyLTlkNjktOGI4MzA4YjM0ODBkXC9kMnE5YnhsLTBjZmE5OTNiLTI2MzctNGYwNy1hMDI0LTVhNTk4OTM0ZWM1ZS5wbmciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.n2ezOAUI7A92arGF9m20KxTcriCOjA2UZ8YHVtC_fDM);
+}
+.psychic-bg {
+  background-image: url(https://i.ytimg.com/vi/D3fKX9qQAOA/maxresdefault.jpg);
+}
+.rock-bg {
+  background-image: url(https://i.redd.it/c4qepdmg34rz.jpg);
+}
+.steel-bg {
+  background-image: url(https://cdn.donmai.us/original/d0/c1/d0c1a4aa4fcf34a65ca7fe9e82eed028.jpg);
+}
+.water-bg {
+  background-image: url(https://cdna.artstation.com/p/assets/images/images/033/652/032/large/benjamin-aw-yong-animewater-scene.jpg?1610205516);
+}

@@ -1,0 +1,6 @@
+#import './AccountFragment.gql'
+query Accounts {
+  accounts {
+    ...AccountFragment
+  }
+}

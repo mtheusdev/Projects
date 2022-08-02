@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "463895111970",
+    "firebase_url": "https://loja-virtual-f658d.firebaseio.com",
+    "project_id": "loja-virtual-f658d",
+    "storage_bucket": "loja-virtual-f658d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463895111970:android:fcb4183af483aa19615d7b",
+        "android_client_info": {
+          "package_name": "mtheusdev.br.com.loja_virtual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463895111970-g33nndd0tfs45t50vff2iib1dgib41vg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX1qLG7wuH35zR84pMaoPYsDIixeWXFqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463895111970-g33nndd0tfs45t50vff2iib1dgib41vg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

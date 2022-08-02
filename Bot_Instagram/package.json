@@ -1,0 +1,22 @@
+{
+  "name": "bot_instagram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtheusdev/Bot_Instagram.git"
+  },
+  "author": "Matheus Henrique dos Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtheusdev/Bot_Instagram/issues"
+  },
+  "homepage": "https://github.com/mtheusdev/Bot_Instagram#readme",
+  "dependencies": {
+    "puppeteer": "^5.2.1"
+  }
+}
